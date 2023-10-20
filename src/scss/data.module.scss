@@ -1,0 +1,51 @@
+@import './table.mixin.scss';
+
+.dataContent {
+    display: flex;
+    margin: 5rem 1rem 1rem 1rem;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        max-width: 40rem;
+        height: auto;
+        border-radius: 2rem;
+        margin: 0 auto;
+    }
+
+    .rating {
+        text-align: center;
+    }
+}
+
+.dataFields {
+    text-align: center; 
+    margin: 5rem auto 3rem; 
+    max-width: 60rem; 
+
+    img {
+        border-radius: 5rem;
+    }
+}
+
+.toolbarData {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: flex-start; 
+    position: absolute; 
+    top: 0;
+    right: 0; 
+    margin: 0.7rem 1rem 0.7rem 0.7rem;
+    & :disabled{
+        opacity: 0.3;
+    }
+}
+
+
+
